@@ -68,7 +68,7 @@ spec:
         port:
           number: 443
           name: HTTPS
-            - match:
+  - match:
     - port: 443
       sni_hosts:  
       - sg-us-west-2-54-69-116-21-prod-us-west-2-oregon.live.ruxit.com
@@ -79,9 +79,10 @@ spec:
           number: 443
           name: HTTPS
             - match:
+  - match:
     - port: 443
       sni_hosts:  
-      - sg-us-west-2-54-213-205-48-prod-us-west-2-oregon.live.ruxit.com
+      - sg-us-west-2-54-213-205-48-prod-us-west-2-oregon.live.ruxit.com 
     route:
     - destination:
         host: sg-us-west-2-54-213-205-48-prod-us-west-2-oregon.live.ruxit.com 
@@ -89,9 +90,10 @@ spec:
           number: 443
           name: HTTPS
             - match:
+  - match:
     - port: 443
-      sni_hosts: 
-      - sg-us-west-2-34-211-171-253-prod-us-west-2-oregon.live.ruxit.com 
+      sni_hosts:  
+      - sg-us-west-2-34-211-171-253-prod-us-west-2-oregon.live.ruxit.com
     route:
     - destination:
         host: sg-us-west-2-34-211-171-253-prod-us-west-2-oregon.live.ruxit.com 
@@ -99,9 +101,10 @@ spec:
           number: 443
           name: HTTPS
             - match:
+  - match:
     - port: 443
       sni_hosts:  
-      - sg-us-west-2-54-213-211-21-prod-us-west-2-oregon.live.ruxit.com
+      - sg-us-west-2-54-213-211-21-prod-us-west-2-oregon.live.ruxit.com 
     route:
     - destination:
         host: sg-us-west-2-54-213-211-21-prod-us-west-2-oregon.live.ruxit.com 
@@ -109,8 +112,9 @@ spec:
           number: 443
           name: HTTPS
             - match:
+  - match:
     - port: 443
-      sni_hosts: 
+      sni_hosts:  
       - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com 
     route:
     - destination:
@@ -119,9 +123,10 @@ spec:
           number: 443
           name: HTTPS
             - match:
+  - match:
     - port: 443
       sni_hosts:  
-      - sg-us-west-2-34-223-233-242-prod-us-west-2-oregon.live.ruxit.com
+      - sg-us-west-2-34-223-233-242-prod-us-west-2-oregon.live.ruxit.com 
     route:
     - destination:
         host: sg-us-west-2-34-223-233-242-prod-us-west-2-oregon.live.ruxit.com 
